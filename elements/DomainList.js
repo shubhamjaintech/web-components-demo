@@ -1,19 +1,32 @@
-import { LitElement, html, css } from "https://unpkg.com/lit-element?module";
+import { LitElement, html, css } from 'https://unpkg.com/lit-element?module';
+import './DomainCard.js'
 
 class DomainList extends LitElement {
-  constructor() {
-    super();
+  static get properties() {
+    return {
+      domains: { type: Array }
+    };
   }
 
-  static get properties() {}
-
-  static get styles() {
-    return css``;
+  static get styles(){
+    return css`
+    .domainListContainer{
+      margin-top:4rem;
+    }
+    
+    `
   }
 
   render() {
-    return html``;
+    console.log(this.domains);
+    if (!this.domains) {
+      return html``;
+    }
+   
+  return html`<div class="domainListContainer">${this.domains.map(item=>html`<domain-card .item=${item} />`)}</div>`;
   }
+
+
 }
 
 customElements.define('domain-list', DomainList);
