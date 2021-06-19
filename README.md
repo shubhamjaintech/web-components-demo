@@ -26,6 +26,9 @@ Install VS Code [Live Server Extention](https://marketplace.visualstudio.com/ite
 * Start or Stop server by a single click from status bar.
 * `https` Support.
 
+### Live Code Walkthrough/Demo
+https://www.loom.com/share/4547c8dfc14e419ba7644d659480deef 
+
 ### Pending Things
 
 1. Building Load Spinner Component
@@ -42,4 +45,6 @@ Install VS Code [Live Server Extention](https://marketplace.visualstudio.com/ite
 2. https://developer.mozilla.org/en-US/docs/Web/Web_Components 
 
 3. https://medium.com/@grvpanchal/css-for-web-components-using-frameworks-segregation-and-scarfs-pattern-1045542e128a
+
+4. https://www.name.com/api-docs/Domains#CreateDomain
 
