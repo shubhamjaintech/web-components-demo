@@ -1,5 +1,16 @@
 # Search Domain Names powered by Name.com API
 
+## Live Code Walkthrough/Demo
+https://www.loom.com/share/4547c8dfc14e419ba7644d659480deef 
+
+### Pending Things
+
+1. Building Load Spinner Component
+
+2. Buying Actual Domain via POST request on clicking Book Now Button
+
+3. UserName and Password key for Name.com API Access is for dev enviornment and not seperated yet into secret access key structure.
+
 ## Quick Setup 
 
 Install VS Code [Live Server Extention](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
@@ -26,16 +37,7 @@ Install VS Code [Live Server Extention](https://marketplace.visualstudio.com/ite
 * Start or Stop server by a single click from status bar.
 * `https` Support.
 
-### Live Code Walkthrough/Demo
-https://www.loom.com/share/4547c8dfc14e419ba7644d659480deef 
 
-### Pending Things
-
-1. Building Load Spinner Component
-
-2. Buying Actual Domain via POST request on clicking Book Now Button
-
-3. UserName and Password key for Name.com API Access is for dev enviornment and not seperated yet into secret access key structure.
 
 
 #### References
